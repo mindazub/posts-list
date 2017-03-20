@@ -3,9 +3,9 @@
 @section('content')
     <div class="container">
         <div class="row">
-            @include('admin.sidebar')
+        <!-- cia buvo include sidebar, col-md-3 ir toliau sekantis col-md-9, dabar aisku pakeistas i col-md-12 -->
 
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">Edit Post #{{ $post->id }}</div>
                     <div class="panel-body">
